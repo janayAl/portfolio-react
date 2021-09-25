@@ -1,0 +1,17 @@
+.navigation_container{
+background-color: car(--nav-color);
+color: whtie
+}
+
+.navbar-light .navbar .navbar-link {
+    color: var(--font-color)!important;
+}
+
+.navbar-light .navbar-brand{
+    color: var(--font-color)!important;
+}
+
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1); 
+/* filter is a css property */
+}

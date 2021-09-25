@@ -1,4 +1,5 @@
 import React from 'react'
+import '.navigation.css'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -17,7 +18,7 @@ function NavigationBar() {
     return (
         <div id="home">
             {/* use expand =md (medium)to collapse the navbar */}
-            <Navbar expand="md">
+            <Navbar className="navigation_container" expand="md">
                 <Navbar.Brand href="#home">JANAY A.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
