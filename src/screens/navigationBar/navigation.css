@@ -13,7 +13,7 @@ color: whtie
 
 .navbar-light .navbar-toggler-icon{
     filter: invert(1); 
-/* filter is a css property */
+
 }
 
 .links a:hover {
