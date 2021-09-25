@@ -1,10 +1,11 @@
 //snippet short cut rfce
 import React from 'react'
 import Typed from 'react-typed'
+import './header.css'
 
 function Header() {
     return (
-        <div>
+        <div className="main-info">
             <h1>Who am I?</h1>
             {/* passes an array of whatever you want to type */}
             <Typed
