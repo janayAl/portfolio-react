@@ -16,8 +16,9 @@ color: whtie
 .navbar-brand{
     color: var(--font-color) !important;
 }
+/* filter is a css property */
 
-.navbar-light .navbar-toggler-icon{
+.navbar-toggler-icon{
     filter: invert(1); 
 
 }
