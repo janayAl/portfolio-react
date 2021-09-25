@@ -23,7 +23,7 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
                     {/* use the helper to create links with the name of each name from the nav links */}
-                    <Nav>
+                    <Nav className="links">
                         {createLinks()}
                     </Nav>
                 </Navbar.Collapse>
