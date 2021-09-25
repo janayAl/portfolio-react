@@ -1,14 +1,20 @@
+/* named the container class in the navigationBar.js. For the other class names, click on the name from inside the app and right click to use the developer tools and view the class names*/
+
 .navigation_container{
-background-color: car(--nav-color);
+background-color: var(--nav-color);
 color: whtie
 }
 
-.navbar-light .navbar .navbar-link {
-    color: var(--font-color)!important;
+/* use the !important to reverse the color */
+
+/* title of the nav links */  
+.nav-link {
+    color: var(--font-color) !important;
 }
 
-.navbar-light .navbar-brand{
-    color: var(--font-color)!important;
+/* name in the nav */
+.navbar-brand{
+    color: var(--font-color) !important;
 }
 
 .navbar-light .navbar-toggler-icon{
