@@ -16,11 +16,15 @@ function createLinks() {
 function NavigationBar() {
     return (
         <div id="home">
-            <Navbar>
+            {/* use expand =md (medium)to collapse the navbar */}
+            <Navbar expand="md">
                 <Navbar.Brand href="#home">JANAY A.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
-
+                    {/* use the helper to create links with the name of each name from the nav links */}
+                    <Nav>
+                        {createLinks()}
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div>
