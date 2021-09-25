@@ -15,3 +15,8 @@ color: whtie
     filter: invert(1); 
 /* filter is a css property */
 }
+
+.links a:hover {
+    background-color: var(--font-color-hover);
+}
+
