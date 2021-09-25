@@ -18,7 +18,10 @@ function NavigationBar() {
     return (
         <div id="home">
             {/* use expand =md (medium)to collapse the navbar */}
-            <Navbar className="navigation_container" expand="md">
+            <Navbar className="navigation_container"
+                style={{ zIndex: '2', postion: 'fixed', top: '0', width: '100%' }}
+                collapseOnSelect
+                expand="md" >
                 <Navbar.Brand style={{
                     marginLeft: '1rem'
                 }} href="#home">Janay A.</Navbar.Brand>
