@@ -19,11 +19,13 @@ function NavigationBar() {
         <div id="home">
             {/* use expand =md (medium)to collapse the navbar */}
             <Navbar className="navigation_container" expand="md">
-                <Navbar.Brand href="#home">JANAY A.</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse>
+                <Navbar.Brand style={{
+                    marginLeft: '1rem'
+                }} href="#home">Janay A.</Navbar.Brand>
+                < Navbar.Toggle aria- controls="basic-navbar-nav" />
+                <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem' }}>
                     {/* use the helper to create links with the name of each name from the nav links */}
-                    <Nav className="links">
+                    <Nav className="links" style={{ marigin: '0 1rem' }}>
                         {createLinks()}
                     </Nav>
                 </Navbar.Collapse>
