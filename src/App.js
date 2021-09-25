@@ -1,11 +1,12 @@
 import './App.css';
 import Navigation from './screens/navigationBar/NavigationBar'
 import ParticleAnimation from 'react-particle-animation'
-
+import Header from './screens/header/Header';
 function App() {
   return (
     <div className="App">
       <Navigation />
+      <Header />
       <ParticleAnimation
         style={{ height: '96vh' }}
         background={{ r: 21, g: 22, b: 23, a: 1 }}
