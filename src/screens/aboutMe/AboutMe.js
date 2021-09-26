@@ -7,7 +7,7 @@ function AboutMe() {
         <div className='about_container' id='about-me'>
             {/* create a div for the image container */}
             <div>
-                <img src={IMG_0253_Original} alt="woman smiling" width="100" height="120" />
+                <img src={IMG_0253_Original} alt="woman smiling" width="130" height="150" />
             </div>
             <div className="about_text">
                 <h1>About Me</h1>
