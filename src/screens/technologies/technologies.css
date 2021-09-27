@@ -1,5 +1,5 @@
 .technologies_container{
-
+width: fit-content;
 
 }
 
@@ -28,6 +28,6 @@ margin: 1rem 0;
     width: 15rem;
     height: 10rem;
     background-color: var(--font-color);
-    margin: ;
+    margin: center;
 
 }

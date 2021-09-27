@@ -6,25 +6,19 @@ import { techs } from '../../helpers/techs'
 function Technologies() {
     return (
         <div>
-            <div className=
-                "technologies_container" id="technologies">
-                <div>
-                    <h1 style={{ textAlign: 'center' }}>Technology I use </h1>
+            <DevIcon icon='react' />
+            <DevIcon icon='javascript' />
+            <DevIcon icon='css3' />
+            <DevIcon icon='html5' />
+            <DevIcon icon='mysql' />
+            <DevIcon icon='mongodb' />
+            <DevIcon icon='bootstrap' />
+            <DevIcon icon='github' />
+            <DevIcon icon='nodejs' />
 
-                </div>
-                <div className="tech_cards_container">
-                    {techs.map((e, idx) => {
-                        return (
-                            <div key={idx} className="tech_card">
-                                <DevIcon className="tech_icons" icon={e.iconName} />
-                                <span style={{ margin: '5px', fontSize: '1.5rem' }}>{e.name}</span>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-            )
+
+        </div>
+    )
 }
 
-            export default Technologies
-
+export default Technologies

@@ -1,4 +1,5 @@
-export const techs -[
+export const techs = [
+
     {
         name: 'React',
         iconName: 'react'
@@ -36,4 +37,4 @@ export const techs -[
         name: 'NodeJS',
         iconName: 'nodejs'
     }
-]
+];
