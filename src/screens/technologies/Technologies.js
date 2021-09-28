@@ -5,7 +5,7 @@ import { techs } from '../../helpers/techs'
 // use cheatsheet from devicon docs
 function Technologies() {
     return (
-        <div>
+        <div class="tech_icons">
             <DevIcon icon='react' />
             <DevIcon icon='javascript' />
             <DevIcon icon='css3' />

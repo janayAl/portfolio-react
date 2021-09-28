@@ -19,7 +19,7 @@ function App() {
         color={{ r: 158, g: 217, b: 249, a: 255 }}
       />
       <AboutMe />
-      <Technologies/>
+      {/* <Technologies/> */}
     </div>
   );
 }
