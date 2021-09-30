@@ -1,13 +1,13 @@
 import React from 'react'
 import './aboutMe.css'
-import IMG_0253_Original from '../../images/IMG_0253_Original.JPG'
+import blackShirt from '../../images/MeBlackShirt.JPG'
 
 function AboutMe() {
     return (
         <div className='about_container' id='about-me'>
             {/* create a div for the image container */}
             <div>
-                <img src={IMG_0253_Original} alt="woman smiling" width="130" height="150" />
+                <img src={blackShirt} alt="woman smiling" width="130" height="150" />
             </div>
             <div className="about_text">
                 <h1>About Me</h1>
