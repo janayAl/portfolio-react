@@ -42,7 +42,7 @@ function Portfolio() {
             </p>
             <Container fluid="lg" style={{ padding: '2rem 0' }}>
                 <Row>
-
+                    {mapped}
                 </Row>
             </Container>
         </div>
