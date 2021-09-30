@@ -26,8 +26,11 @@ function Portfolio() {
                             tech: e.tech
                         })
                     }}
-                //closing image tag for image in the jsx way
-                />
+
+                    src={e.image} />
+
+                //add the images with src before the closing image tag//
+            //closing image tag for image in the jsx way//
             </Card>
         )
     })
