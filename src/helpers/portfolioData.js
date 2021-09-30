@@ -1,7 +1,7 @@
-import fitnessTracker = "../images/projectsicon/FitnessTrackerApp.png";
-import noteTaker = "../images/projectsicon/NoteTakerApp.png;
-import weather = "../images/projectsicon/WeatherApp.jpg";
-import passWord = "../images/projectsicon/passWordGenerator.png"
+import fitnessTracker from "../images/projectsicon/FitnessTrackerApp.png";
+import noteTaker from "../images/projectsicon/NoteTakerApp.png";
+import weather from "../images/projectsicon/WeatherApp.jpg";
+import passWord from "../images/projectsicon/passWordGenerator.png"
 
 
 const portfolioData = [
