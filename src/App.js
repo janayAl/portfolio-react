@@ -7,6 +7,7 @@ import DevIcon from "devicon-react-svg";
 import Technologies from './screens/technologies/Technologies';
 import Portfolio from './screens/portfolio/portfolio';
 import PortfolioData from './helpers/portfolioData';
+import contact from './screens/Contact/contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <AboutMe />
       {/* <Technologies/> */}
       < Portfolio />
+      <contact />
     </div>
   );
 }

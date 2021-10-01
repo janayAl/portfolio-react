@@ -41,6 +41,7 @@ function Portfolio() {
                 <a href="https://github.com/janayAl" target="blank" rel="noreferrer">https://github.com/janayAl</a>
             </p>
             <Container fluid="lg" style={{ padding: '2rem 0' }}>
+                //render the imaves here, since the images are wrapped in the mapped const you render it here in jsx//
                 <Row>
                     {mapped}
                 </Row>
