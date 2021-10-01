@@ -29,8 +29,8 @@ function Portfolio() {
 
                     src={e.image} />
 
-                //add the images with src before the closing image tag//
-            //closing image tag for image in the jsx way//
+                {/* //add the images with src before the closing image tag//
+            //closing image tag for image in the jsx way// */}
             </Card>
         )
     })
@@ -41,7 +41,7 @@ function Portfolio() {
                 <a href="https://github.com/janayAl" target="blank" rel="noreferrer">https://github.com/janayAl</a>
             </p>
             <Container fluid="lg" style={{ padding: '2rem 0' }}>
-                //render the imaves here, since the images are wrapped in the mapped const you render it here in jsx//
+                {/* //render the imaves here, since the images are wrapped in the mapped const you render it here in jsx// */}
                 <Row>
                     {mapped}
                 </Row>
