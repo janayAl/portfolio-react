@@ -7,7 +7,7 @@ function createLinks() {
         <p key={idx}><a href={e.ref}>{e.name}</a></p>
     ))
 }
-function contact() {
+function Contact() {
     return (
         <div className="contact_container" id="contact">
             <div className="contact_data_links">
@@ -26,4 +26,4 @@ function contact() {
 }
 
 
-export default contact
+export default Contact
