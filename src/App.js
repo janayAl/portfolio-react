@@ -24,7 +24,7 @@ function App() {
       <AboutMe />
       {/* <Technologies/> */}
       < Portfolio />
-      <contact />
+      < contact />
     </div>
   );
 }

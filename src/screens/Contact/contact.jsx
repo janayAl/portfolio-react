@@ -9,8 +9,8 @@ function createLinks() {
 }
 function contact() {
     return (
-        <div id="contact">
-            <div>
+        <div className="contact_container" id="contact">
+            <div className="contact_data_links">
                 <div>
                     <p>Janay Allen</p>
                     <p>janaythedeveloper@gmail.com</p>
@@ -20,7 +20,7 @@ function contact() {
                     {createLinks()}
                 </div>
             </div>
-            <div>Copyright&copy;</div>
+
         </div>
     )
 }
