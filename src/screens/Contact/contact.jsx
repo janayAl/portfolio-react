@@ -4,22 +4,23 @@ import { navigationLinks } from '../../helpers/navigationLinks'
 
 function createLinks() {
     return navigationLinks.map((e, idx) => (
-        <p key={idx}>{e.name}</p>
+        <p key={idx}><a href={e.ref}>{e.name}</a></p>
     ))
 }
-function Contact() {
+function contact() {
     return (
-        <div>
+        <div id="contact">
             <div>
                 <div>
-                    Janay Allen
-                    <div>
-
-                    </div>
+                    <p>Janay Allen</p>
+                    <p>janaythedeveloper@gmail.com</p>
+                    <p>Contact Me for serious inquiries.</p>
+                </div>
+                <div>
                     {createLinks()}
                 </div>
             </div>
-            <div>Date</div>
+            <div>Copyright&copy;</div>
         </div>
     )
 }
