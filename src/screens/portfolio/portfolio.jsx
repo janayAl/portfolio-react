@@ -14,9 +14,20 @@ function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
     const [tempData, setTempData] = useState({})
 
-    function createModal {
+    function createModal(data) {
         return (
-            <Modal>
+            <Modal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                size="lg"
+                arial-labelledby="container-modal-title-vcenter"
+                centered
+            >
+                <Modal.Header>
+                    <Modal.Title id="container-modal-title-vcenter">
+                        {data.title}
+                    </Modal.Title>
+                </Modal.Header>
 
             </Modal>
         )
