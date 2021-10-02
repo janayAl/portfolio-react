@@ -9,7 +9,7 @@ export const navigationLinks = [
     },
     {
         name: 'RESUME',
-        ref: '#resume'
+        ref: 'https://docs.google.com/document/d/1AGtHyhCXALIfn6v4CMr0dgxGTYtZPG-6FxFssjijD68/edit?usp=sharing'
     },
     {
         name: 'PORTFOLIO',
