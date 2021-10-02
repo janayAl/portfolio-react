@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
-import Modal from 'react-bootstrap/modal';
+import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 // usign bootstrap
@@ -28,9 +28,19 @@ function Portfolio() {
                         {data.title}
                     </Modal.Title>
                 </Modal.Header>
-
-            </Modal>
+                <Modal.Body>
+                    <p>{data.summary}</p>
+                    <Image src={data.image} style={{ width: '200px' }} />
+                </Modal.Body>
+                <a id="portfolio_modal_link" href={data.link} target="blank" rel="noreferrer">Visit Site</a>
+                <Modal.Footer>
+                    <div>Technologies used: </div>
+                    <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
+                    <Button onClick={() => setModalShow(false)}>Close</Button>
+                </Modal.Footer>
+            </Modal >
         )
+
     }
 
     const mapped = portfolioData.map((e, idx) => {
@@ -51,8 +61,6 @@ function Portfolio() {
                     src={e.image} />
                 <div className="portfolio_main_container" id="portfolio"></div>
 
-                {/* //add the images with src before the closing image tag//
-            //closing image tag for image in the jsx way// */}
             </Card>
             </div >
         )
