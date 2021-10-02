@@ -59,26 +59,26 @@ function Portfolio() {
                     }}
 
                     src={e.image} />
-                <div className="portfolio_main_container" id="portfolio"></div>
+                <div className="portfolio_click_info" id="portfolio"></div>
 
             </Card>
-            </div >
+
         )
-})
-return (
-    <div className="portfolio_main_container" id="portfolio">
-        <h1>Portfolio</h1>
-        <p>Take a peek into my Github Repo!
-            <a href="https://github.com/janayAl" target="blank" rel="noreferrer">https://github.com/janayAl</a>
-        </p>
-        <Container fluid="lg" style={{ padding: '2rem 0' }}>
-            {/* //render the imaves here, since the images are wrapped in the mapped const you render it here in jsx// */}
-            <Row>
-                {mapped}
-            </Row>
-        </Container>
-    </div>
-)
+    })
+    return (
+        <div className="portfolio_main_container" id="portfolio">
+            <h1>Portfolio</h1>
+            <p>Take a peek into my Github Repo!
+                <a href="https://github.com/janayAl" target="blank" rel="noreferrer">https://github.com/janayAl</a>
+            </p>
+            <Container fluid="lg" style={{ padding: '2rem 0' }}>
+                {/* //render the imaves here, since the images are wrapped in the mapped const you render it here in jsx// */}
+                <Row>
+                    {mapped}
+                </Row>
+            </Container>
+        </div>
+    )
 }
 
 export default Portfolio
