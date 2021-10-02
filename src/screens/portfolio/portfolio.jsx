@@ -14,59 +14,29 @@ function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
     const [tempData, setTempData] = useState({})
 
-    // function createModal(data) {
-    //     return (
-    //         <Modal
-    //             show={modalShow}
-    //             onHide={() => setModalShow(false)}
-    //             size="lg"
-    //             arial-labelledby="container-modal-title-vcenter"
-    //             centered
-    //         >
-    //             <Modal.Header>
-    //                 <Modal.Title id="container-modal-title-vcenter">
-    //                     {data.title}
-    //                 </Modal.Title>
-    //             </Modal.Header>
-    //             <Modal.Body>
-    //                 <p>{data.summary}</p>
-    //                 <Image src={data.image} style={{ width: '200px' }} />
-    //             </Modal.Body>
-    //             <a id="portfolio_modal_link" href={data.link} target="blank" rel="noreferrer">Visit Site</a>
-    //             <Modal.Footer>
-    //                 <div>Technologies used: </div>
-    //                 <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
-    //                 <Button onClick={() => setModalShow(false)}>Close</Button>
-    //             </Modal.Footer>
-    //         </Modal >
-    //     )
-
-    // }
 
     const mapped = portfolioData.map((e, idx) => {
         return (
             <Card key={idx} id="portfolio_card_container">
 
                 <Image className="portfolio_image"
-                    // onClick={() => {
-                    //     setTempData({
-                    //         image: e.image,
-                    //         link: e.link,
-                    //         title: e.title,
-                    //         summary: e.summary,
-                    //         tech: e.tech
-                    //     })
-                    //     setModalShow(true)
-                    // }}
-                    src={e.image} />
-                {e.title} {e.summary} {e.tech}
 
-                <div className="portfolio_click_info" id="portfolio"></div>
+                    src={e.image} />
+                {e.title} {e.summary} {e.tech} {e.link}
+
 
             </Card>
 
         )
-    })
+    });
+    // < div id="content2" >
+    //     <p id="worksection1">Password Generator</p>
+    //     <a href="https://janayal.github.io/passwordgenerator/">
+    //         <img src="../images/projectsicon/NoteTakerApp.png" onClick /></a>
+
+    // </div >
+
+
     return (
         <div className="portfolio_main_container" id="portfolio">
             <h1>Portfolio</h1>
