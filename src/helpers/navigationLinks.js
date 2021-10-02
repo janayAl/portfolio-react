@@ -8,8 +8,8 @@ export const navigationLinks = [
         ref: '#about-me'
     },
     {
-        name: 'TECHNOLOGIES',
-        ref: '#technologies'
+        name: 'RESUME',
+        ref: '#resume'
     },
     {
         name: 'PORTFOLIO',

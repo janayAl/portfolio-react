@@ -11,8 +11,8 @@ import Button from 'react-bootstrap/Button';
 // usign bootstrap
 // line 18 and beyond creates an on click function using the info recorded in the model, this is jsx
 function Portfolio() {
-    const [modalShow, setModalShow] = useState(false);
-    const [tempData, setTempData] = useState({})
+    // const [modalShow, setModalShow] = useState(false);
+    // const [tempData, setTempData] = useState({})
 
 
     const mapped = portfolioData.map((e, idx) => {
