@@ -48,18 +48,19 @@ function Portfolio() {
             <Card key={idx} id="portfolio_card_container">
 
                 <Image className="portfolio_image"
-                    onClick={() => {
-                        setTempData({
-                            image: e.image,
-                            link: e.link,
-                            title: e.title,
-                            summary: e.summary,
-                            tech: e.tech
-                        })
-                        setModalShow(true)
-                    }}
-
+                    // onClick={() => {
+                    //     setTempData({
+                    //         image: e.image,
+                    //         link: e.link,
+                    //         title: e.title,
+                    //         summary: e.summary,
+                    //         tech: e.tech
+                    //     })
+                    //     setModalShow(true)
+                    // }}
                     src={e.image} />
+                {e.title} {e.summary} {e.tech}
+
                 <div className="portfolio_click_info" id="portfolio"></div>
 
             </Card>
